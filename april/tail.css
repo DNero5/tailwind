@@ -645,6 +645,10 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .col-start-3 {
   grid-column-start: 3;
 }
@@ -653,12 +657,24 @@ video {
   grid-row: span 2 / span 2;
 }
 
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
 .row-start-3 {
   grid-row-start: 3;
 }
 
 .row-start-5 {
   grid-row-start: 5;
+}
+
+.row-start-6 {
+  grid-row-start: 6;
 }
 
 .float-start {
@@ -1160,6 +1176,10 @@ video {
 
 .grid-rows-\[repeat\(5\2c 200px\)\] {
   grid-template-rows: repeat(5,200px);
+}
+
+.grid-rows-\[repeat\(6\2c 200px\)\] {
+  grid-template-rows: repeat(6,200px);
 }
 
 .flex-row {
